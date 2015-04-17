@@ -7,3 +7,4 @@ plugins/
 *.DS_Store
 hooks/
 www/lib/
+.idea/
