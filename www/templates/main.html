@@ -1,0 +1,26 @@
+<ion-side-menus enable-menu-with-back-views="true" class="main-view">
+  <ion-side-menu-content>
+    <ion-nav-bar name="menu" class="bar-stable">
+      <ion-nav-buttons class="button-positive" side="right">
+        <button menu-toggle="right" class="button button-icon ion-navicon button-clear"></button>
+      </ion-nav-buttons>
+    </ion-nav-bar>
+    <ion-nav-view name="menuContent" class="left-menu-content"></ion-nav-view>
+  </ion-side-menu-content>
+
+  <ion-side-menu side="right" class="right--menu-content">
+    <ion-header-bar class="bar-stable">
+      <h1 class="title"></h1>
+    </ion-header-bar>
+    <ion-content  scroll="false">
+      <ion-list>
+        <ion-item nav-clear menu-close href="#/app/home">
+          Home
+        </ion-item>
+      </ion-list>
+    </ion-content>
+  </ion-side-menu>
+</ion-side-menus>
+
+
+
